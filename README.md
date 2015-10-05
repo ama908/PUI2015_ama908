@@ -1,9 +1,9 @@
 <<<<<<< HEAD
 ﻿# PUI2015_ama908 repo
 =======
-Include a README.md which describes what you are doing, and, if appropriate, how to run the notebook (input variables? global variables that need to be setup?).
+ASSIGNEMENT 1
 
-In this assignment I'm generating  100 samples of different sizes N (N>10 & N<2000) from each of 6 different distributions (600 samples in total), all with the same population mean of 100.Distributions I'm using are Normal, Poisson, Binomial, Chi-Squared, Gamma, Geometric.                                       
+Include a README.md which describes what you are doing, and, if appropriate, how to run the notebook (input variables? global variables that need to be setup?).
 
 I imported the following packages  
 
@@ -16,41 +16,34 @@ I imported the following packages
 7.matplotlib.mlab and named it mlab
 import matplotlib.pyplot as plt
 
+The notebook has given values so no input/global variable is needed to run the notebook. 
 
-2. For each sample plot the sample mean against the sample size N (if you want you can do it with the sample standard deviation as well). 
+Then I'm generated  100 samples of different sizes N (N>10 & N<2000) from each of 6 different distributions (600 samples in total), all with the same population mean, which is dist_mean =100. Distributions I'm using are Normal, Poisson, Binomial, Chi-Squared, Gamma, Geometric.
+
+For each distribution mean is calculated using differnt variables. 
+
+In normal distribution, the distibution variable is equal to the given sample mean and standarddeviation which I set to 1  i.e. Distribution mean is 100, sd=1
+In poisson distribution, the distibution variable is Labmda which is equal to the given value, i.e. Distribution lamda is 100
+In binomal distribution, the distibution variable is sample size, n and the probability of success, p. the distibution mean is equal to n*p i.e.since distribution mean is predetermined I set the value p=.25 and set n =mean/p
+In chi-squared distribution, the distibution variable is degree of freedom, df which is equal to sample mean , i.e. df is 100
+In gamma distribution, the distibution variable is a shape parameter k and a scale parameter theta. the distibution mean is equal to k*theta i.e.since distribution mean is predetermined I set the value k=10 and set theta =mean/k
+In gamma distribution, the distibution variable is the probability of success, p. the distibution mean is equal to 1/p i.e.since distribution mean is predetermined I set the value p=1/mean
+
+
+For each sample I plotted the sample mean against the sample size N . 
+
 Describe the behavior you see in the plots - do they look as you expected? why?
+In all the plots we can observe one thing in common that as the sample size is increased the sample mean approached the expeced mean value. This is completely in agreement with the central limit theorem (CLT) which states that, given certain conditions, the arithmetic mean of a sufficiently large number of iterates of independent random variables, each with a well-defined expected value and well-defined variance, will be approximately normally distributed, regardless of the underlying distribution. [1]¶
+Reference: Wikipedia.https://en.wikipedia.org/wiki/Central_limit_theorem
 
-3. PLOT the distributions of all sample means (together for all distributions). 
-Mandatory  - plot is as a histogram, 
-Optional - plot it  in any other way you think is convincing
+I have PLOTTED the mandatory histogram plot of the distributions of all sample means (together for all distributions). 
+And also an optional that is showing each distibution mean frequencied separately but on the same plot. 
+In both plots we an observe larger sample sizes have sample mean close to 100. 
 
 Optional: FIT a gaussian to the distribution of means             
- e.g. how to fit function to data in numpy:
-http://glowingpython.blogspot.com/2012/07/distribution-fitting-with-scipy.html
-http://stackoverflow.com/questions/7805552/fitting-a-histogram-with-python
-Delivery: create a new Github directory called HW3 inside of your PUI2015_<your name> repo.
-upload an ipython notebook, with the rendered plots. 
-Include a README.md which describes what you are doing, and, if appropriate, how to run the notebook (input variables? global variables that need to be setup?).
-75% of the grade will be based on the rendered version of the plot, 25% will be awarded if the TA can download and run the notebook (if you include any package that was not in the standard Anaconda distribution state that in your README.md, so that the TAs can install them).
-Assignment 2 :  Hypothesis testing
-
-Follow and understand the notebook https://github.com/fedhere/PUI2015_fbianco/blob/master/HW3/effectivenes%20of%20NYC%20Post-Prison%20Employment%20Programs.ipynb
-and repeat the z-test and chisq test for other data included in the paper we are working with. 
-by fill in missing cells in (your own copy of) the notebook
-
-Delivery: upload the notebook on your   PUI2015_<your name>/HW3 github repo (see Assignment 1) 
+ I have also fitted a gaussian to the histigram of all means 
 
 
-## HW 3 Assignment 1
-###Author Anita Ahmed - ama908@nyu.edu
+ASSIGNMENT 2
 
-#####Question 1. GENERATE  100 samples of different sizes N (N>10 & N<2000) from each of 6 different distributions (600 samples in total), all with the same population mean. 
-
-##### 
-
-2. For each sample plot the sample mean against the sample size N (if you want you can do it with the sample standard deviation as well).
-3. ####Describe the behavior you see in the plots - do they look as you expected? why?
-4. ##### In all the plots we can observe one thing in common that as the sample size is increased the sample mean approached the expeced mean value. This is completely in agreement with  the central limit theorem (CLT) which states that, given certain conditions, the arithmetic mean of a sufficiently large number of iterates of independent random variables, each with a well-defined expected value and well-defined variance, will be approximately normally distributed, regardless of the underlying distribution. [1]
-
-######Reference: Wikipedia.https://en.wikipedia.org/wiki/Central_limit_theorem
->>>>>>> 3638db07006503a7e195151691b2fcc590fddb1d
+Assigment 2 is submitted in a separate ipython notebook. 
