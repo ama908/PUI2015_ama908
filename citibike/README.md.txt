@@ -1,12 +1,12 @@
-All assignments can be done in groups, but i strongly recommand you do this one in group  (5 ppl max) - brainstorming ideas works best if there are more then 1 brains!
+For this Assignment, I worked in a group of 3 people. My partners were Erwan LeCun, Miyabi Ishihara. 
 
-For this Assignment I worked in a group of 3 people. My partners were 
-Work on CitiBikes data https://www.citibikenyc.com/system-data 
-Come up with an idea of something that can be tested with a proportion, or mean problem, on the citibike data. 
-I prepared an example here: 
-https://github.com/fedhere/PUI2015_fbianco/blob/master/citibikes/citibikes_1950s.ipynb
+My Contributions:
+I came up with the NULL Hypothesis. Erwan coded the z-test , I helped him with formulas and general reserach to do the code. I coded the Chi-Suqare Test on Python Notebook, miyabi helped me with formulas and to debug the code properly.  
 
-Describe your idea
+IDEA:
+Our group did both mean problem and a proportion problem using January 2015 citibike data. 
+Z-test: 
+
 Turn the idea into a testable hypothesis and state your Null and alternative hypotheses
 choose a confidence level
 mangle your data as needed
