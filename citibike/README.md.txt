@@ -1,3 +1,5 @@
+Please check HW_Assignement_3_Final Version (1).ipynb and disregard others
+
 For this Assignment, I worked in a group of 3 people. My partners were Erwan LeCun, Miyabi Ishihara. 
 
 My Contributions:
