@@ -1,4 +1,4 @@
-Please check HW_Assignement_3_Final Version (1).ipynb and disregard others
+Please check HW_Assignement_3_Final Version (1).ipynb 
 
 For this Assignment, I worked in a group of 3 people. My partners were Erwan LeCun, Miyabi Ishihara. 
 
@@ -49,5 +49,5 @@ Ha: P0-P1 < 0
 
 We created samples for Subscribers taking short and long trips and customers taking short and long trips. 
 
-We used the Chi- Square test formula from class notes and we got Chi-square Value that was greater than 3.84 . So we rejected the null hypothesis. Therefore, the probability of Subscriber taking long rides is lower than the probability of Customer taking long rides. This probably is due to the fact that Subcribers are locals who tend to use bikes for daily commute where as Customers might be tourists who are riding the bikes longer for sightseeing.
+We used the Chi- Square test formula from class notes and we got Chi-square Value 4043 that was greater than 3.84 . So we rejected the null hypothesis. Therefore, the probability of Subscriber taking long rides is lower than the probability of Customer taking long rides. This probably is due to the fact that Subcribers are locals who tend to use bikes for daily commute where as Customers might be tourists who are riding the bikes longer for sightseeing.
 
